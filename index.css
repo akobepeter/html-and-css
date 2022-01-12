@@ -1,0 +1,93 @@
+.circle {
+  display: block;
+  width: 50px;
+  height: 30px;
+  border-radius: 25px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.square {
+  display: block;
+  width: 20px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto auto;
+ 
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  direction: row;
+  justify-content: end;
+    padding-right: 80px;
+  position: relative;
+}
+
+.vertical {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.right-arrow-top::after {
+  content: '\2192';
+  font-size: 30px; 
+}
+
+.slant-arrow-right::after{
+    display: block;
+    content: '\02198';
+    font-size: 30px;
+   
+}
+.slant-arrow-right{
+    margin-left: 10px;
+    margin-top: 5px;
+   
+}
+
+.slant-arrow-left::after{
+    display: block;
+    content: '\02198';
+    font-size: 30px;
+   
+}
+.slant-arrow-left{
+    margin-left: 10px;
+    margin-top: 5px;
+   
+}
+
+.arrow-down::after{
+    content: '\02193';
+    font-size: 30px;
+}
+
+.slant-arrow-left::after{
+    content: '\02199';
+    font-size:30px;
+}
+
+.arrow-left::after{
+    content: '\02190';
+    font-size: 30px;
+}
